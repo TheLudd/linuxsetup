@@ -1,0 +1,8 @@
+#!/bin/bash
+base=`pwd` 
+for f in *
+do
+	if [ "$f" != "setup" ]; then
+		ln -s $base/$f ~/.$f
+	fi
+done
