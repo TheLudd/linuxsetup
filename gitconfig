@@ -1,0 +1,14 @@
+[user]
+	email = ludwig@mediatool.com
+	name = Ludwig Magnusson
+[core]
+	editor = vim
+[alias]
+	st = status
+	co = commit -a
+	a = add -A
+	clf = clean -f
+	b = branch
+	ch = checkout
+[push]
+	default = matching
