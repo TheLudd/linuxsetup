@@ -1,0 +1,8 @@
+#!/bin/bash
+cd dotfiles
+base=`pwd`
+for f in *
+do
+	ln -sf $base/$f ~/.$f
+done
+ln -sf $base/bin ~/bin

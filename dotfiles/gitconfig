@@ -10,5 +10,7 @@
 	clf = clean -f
 	b = branch
 	ch = checkout
+        fix = commit -a --amend --no-edit
+   	pf = push --force
 [push]
-	default = matching
+	default = simple

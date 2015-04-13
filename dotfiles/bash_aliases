@@ -1,0 +1,7 @@
+alias apap="sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && sudo apt-get autoclean"
+alias e="exit"
+alias l="ls -l"
+alias ll="ls -la"
+alias branch-done="git ch master && git pull -p && git delete-merged-branches"
+alias nt="gnome-terminal"
+alias mdir=". makedir"

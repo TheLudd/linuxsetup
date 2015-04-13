@@ -1,0 +1,5 @@
+#!/bin/bash
+fileName=$1
+echo "#!/bin/bash" > $fileName
+chmod +x $fileName
+vi $fileName
