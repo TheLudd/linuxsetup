@@ -1,0 +1,4 @@
+#!/bin/bash
+base=`pwd`
+ln -sf $base/ssh/authorized_keys ~/.ssh/authorized_keys
+ln -sf $base/ssh/config ~/.ssh/config

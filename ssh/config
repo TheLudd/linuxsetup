@@ -1,0 +1,5 @@
+host production
+hostname app.mediatool.com
+
+host staging
+hostname app.mediatool.com
