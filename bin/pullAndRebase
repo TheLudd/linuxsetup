@@ -2,5 +2,5 @@
 branch=`git symbolic-ref --short -q HEAD`
 git ch master
 git pull
-git ch branch
+git ch $branch
 git rebase master
