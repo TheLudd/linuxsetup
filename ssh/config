@@ -3,3 +3,6 @@ hostname app.mediatool.com
 
 host staging
 hostname staging.mediatool.com
+
+host web
+hostname web.mediatool.com
