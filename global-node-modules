@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo npm i -g coffee-script nodemon
+sudo npm i -g coffee-script nodemon ny change-case-cli

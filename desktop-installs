@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo add-apt-repository -y ppa:xorg-edgers/ppa
+sudo apt-get update
+sudo apt-get install -y vlc sshfs
