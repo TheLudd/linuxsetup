@@ -1,8 +1,5 @@
 #!/bin/bash
 source ~/linuxsetup/common/update-upstream
-branch=`git symbolic-ref --short -q HEAD`
 git ch master
 updateUpstream
-git pull
-git ch $branch
-git rebase master
+git delete-merged-branches

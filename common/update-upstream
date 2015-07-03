@@ -1,0 +1,7 @@
+function updateUpstream() {
+	upstream=`git remote -v | awk '/upstream/{ print $0 }'`
+	if [ -n "$upstream" ]; then
+		git pull upstream master
+		git push origin master
+	fi
+}

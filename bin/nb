@@ -1,9 +1,10 @@
 #!/bin/bash
+source ~/linuxsetup/common/update-upstream
 branchName=$1
-if [ -z "$branchName" ]; then 
+if [ -z "$branchName" ]; then
 	echo No branch name provided
 	exit 1
 fi
 git ch master
-git pull 
+updateUpstream
 git ch -b $branchName
