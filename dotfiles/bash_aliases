@@ -9,3 +9,4 @@ alias upnpm="sudo npm i -g npm && npm completion | sudo tee /etc/bash_completion
 alias mt="cd ~/mediatool && zsh"
 alias clock="killall unity-panel-service"
 alias mount-eric="sshfs eric:/var/lib/transmission-daemon/downloads ~/eric && gnome-open ~/eric"
+alias pyser="python -m SimpleHTTPServer"
