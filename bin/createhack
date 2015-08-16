@@ -1,0 +1,11 @@
+#!/bin/bash
+args=("$@")
+dir=$1
+modules="clear-console ${args[@]:1}"
+mkdir $dir
+cd $dir
+echo running npm i $modules
+npm i $modules
+printf "require('clear-console')()\n" > app.js
+nt
+vi app.js
