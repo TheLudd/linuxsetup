@@ -12,5 +12,6 @@
 	ch = checkout
         fix = commit -a --amend --no-edit
    	pf = push --force
+	m = rebase master
 [push]
 	default = simple
