@@ -1,2 +1,2 @@
 #!/bin/bash
-grep --color -r $1 */{boundaries,lib,test,web}
+grep --color -r $1 */{boundaries,lib,test,web} ${@:2}
