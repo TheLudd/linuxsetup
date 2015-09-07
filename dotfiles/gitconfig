@@ -13,5 +13,6 @@
         fix = commit -a --amend --no-edit
    	pf = push --force
 	m = rebase master
+        edit = reset HEAD~
 [push]
 	default = simple
