@@ -79,3 +79,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.bash_aliases
+
+autoload -Uz bashcompinit
+bashcompinit
+for f in /etc/bash_completion.d/* ; do
+	source $f 2>/dev/null
+done
