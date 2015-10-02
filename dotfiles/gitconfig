@@ -2,7 +2,7 @@
 	email = ludwig@mediatool.com
 	name = Ludwig Magnusson
 [core]
-	editor = vim
+	editor = vi
 [alias]
 	st = status
 	co = commit -a
