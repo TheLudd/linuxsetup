@@ -13,4 +13,3 @@ alias mount-external="sshfs transmission:/var/lib/transmission-daemon/downloads 
 alias pyser="python -m SimpleHTTPServer"
 alias hack=". createhack"
 alias peace="git st | grep 'both modified' | sed -r 's/both modified:\s*(.*)$/\1/g' | xargs vi -p"
-alias golocal="git st | head -n 1 | sed -r "s/.*\/(.*)$/\1/g" | xargs git checkout"
