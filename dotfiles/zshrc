@@ -85,3 +85,4 @@ bashcompinit
 for f in /etc/bash_completion.d/* ; do
 	source $f 2>/dev/null
 done
+setopt no_share_history
