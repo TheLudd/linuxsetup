@@ -13,3 +13,4 @@ alias mount-external="sshfs transmission:/var/lib/transmission-daemon/downloads 
 alias pyser="python -m SimpleHTTPServer"
 alias hack=". createhack"
 alias peace="git st | grep 'both modified' | sed -r 's/both modified:\s*(.*)$/\1/g' | xargs vi -p"
+alias mouse="sudo modprobe -r psmouse && sudo modprobe psmouse"

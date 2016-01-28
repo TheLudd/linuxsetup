@@ -9,3 +9,6 @@ hostname web.mediatool.com
 
 host eric
 hostname 192.168.0.102
+
+host admin
+hostname 52.48.49.118

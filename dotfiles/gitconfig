@@ -16,3 +16,5 @@
         edit = reset HEAD~
 [push]
 	default = simple
+[init]
+	templatedir = ~/linuxsetup/gittemplate
