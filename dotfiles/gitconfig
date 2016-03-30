@@ -7,7 +7,7 @@
 	st = status
 	co = commit -a
 	a = add -A
-	clf = clean -f
+	clf = clean -fd
 	b = branch
 	ch = checkout
         fix = commit -a --amend --no-edit
