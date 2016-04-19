@@ -6,4 +6,4 @@ remoteMerged=`git branch -r --merged | grep origin | grep -v '>' | grep -v maste
 if [ ! -z "$remoteMerged" ]; then
 	echo $remoteMerged | xargs git push origin --delete
 fi
-git delete-merged-branches
+git delete-merged-branches -f
