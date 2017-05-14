@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 diff=`git log ..master`
 changes=`git log master..`
 

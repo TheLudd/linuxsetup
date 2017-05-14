@@ -16,5 +16,6 @@
         edit = reset HEAD~
 [push]
 	default = simple
+	followTags = true
 [init]
 	templatedir = ~/linuxsetup/gittemplate

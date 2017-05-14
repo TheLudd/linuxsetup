@@ -1,0 +1,3 @@
+#!/bin/bash
+file=$1
+nodemon -q --ignore-root test -e json,js,coffee,feature -x "npm run accept -- $file"

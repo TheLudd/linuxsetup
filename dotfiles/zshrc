@@ -86,3 +86,7 @@ for f in /etc/bash_completion.d/* ; do
 	source $f 2>/dev/null
 done
 setopt no_share_history
+
+# tabtab source for yarn package
+# uninstall by removing these lines or running `tabtab uninstall yarn`
+[ -f /home/ludwig/.yarn-config/global/node_modules/tabtab/.completions/yarn.bash ] && . /home/ludwig/.yarn-config/global/node_modules/tabtab/.completions/yarn.bash
